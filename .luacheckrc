@@ -54,6 +54,9 @@ files["prototypes/**/*.lua"] = {
     "default_circuit_wire_max_distance",
     -- __base__.prototypes.factoriopedia-util
     "make_resource",
+    -- custom
+    "zirconium_lead_plate_or_iron_plate",
+    "zircaloy4_or_zirconium_plate",
   },
 }
 

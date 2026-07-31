@@ -16,5 +16,11 @@
                 "replace": "__khaoszirconium__.$1"
             }
         ]
+    },
+    "diagnostics": {
+      "globals": [
+        "zirconium_lead_plate_or_iron_plate",
+        "zircaloy4_or_zirconium_plate"
+      ]
     }
 }
