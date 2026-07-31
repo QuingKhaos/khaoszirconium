@@ -1,6 +1,6 @@
 {
-  "name": "khaosdev-###NAME###-space-age",
-  "title": "// DEV // ###TITLE### // Space Age //",
+  "name": "khaosdev-khaoszirconium-more",
+  "title": "// DEV // Zirconium Revamped // More //",
   "description": "",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
@@ -11,7 +11,7 @@
     "elevated-rails",
     "quality",
     "recycler",
-    "space-age",
+    "! space-age",
 
     "khaosdev",
     "ghost-logistics",
@@ -27,7 +27,7 @@
     "khaostransportgroup",
     "science-tab",
 
-    "###NAME###"
+    "khaoszirconium"
   ],
   "expansion_required": true
 }
