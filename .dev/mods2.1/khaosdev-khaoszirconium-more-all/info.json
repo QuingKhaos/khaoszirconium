@@ -1,6 +1,6 @@
 {
-  "name": "khaosdev-khaoszirconium-more",
-  "title": "// DEV // Zirconium Revamped // More //",
+  "name": "khaosdev-khaoszirconium-more-all",
+  "title": "// DEV // Zirconium Revamped // More // All //",
   "description": "",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
@@ -25,6 +25,9 @@
     "khaostransportgroup",
     "science-tab",
 
+    "khaoslead",
+    "khaossilicon",
+    "khaostitanium",
     "khaoszirconium"
   ],
   "expansion_required": true

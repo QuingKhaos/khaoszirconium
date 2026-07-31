@@ -8,8 +8,20 @@
   "factorio_version": "2.1",
   "dependencies": [
     "base >= 2.1.11",
+    "? quality >= 2.1.11",
+    "! space-age",
 
-    "khaoslib >= 2.1.0"
+    "khaoslib >= 2.1.0",
+    "? khaoslead >= 0.1.0",
+    "? khaossilicon >= 0.1.0",
+    "? khaostitanium >= 0.1.0",
+
+    "! bzlead",
+    "! bzlead2",
+    "! bzsilicon",
+    "! bzsilicon2",
+    "! bztitanium",
+    "! bztitanium2"
   ],
   "package": {
     "ignore": [
