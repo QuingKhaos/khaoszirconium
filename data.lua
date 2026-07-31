@@ -1,3 +1,5 @@
+require("__khaoszirconium__.prototypes.ammo.explosive-rounds-magazine")
+
 require("__khaoszirconium__.prototypes.particles.zircon-particle")
 require("__khaoszirconium__.prototypes.entity.resources.zircon")
 
@@ -11,6 +13,7 @@ require("__khaoszirconium__.prototypes.recipe.zirconia")
 require("__khaoszirconium__.prototypes.recipe.zirconium-sponge")
 require("__khaoszirconium__.prototypes.recipe.zirconium-plate")
 require("__khaoszirconium__.prototypes.recipe.cermet")
+require("__khaoszirconium__.prototypes.recipe.explosive-rounds-magazine")
 
 require("__khaoszirconium__.prototypes.technology.zirconia-processing")
 require("__khaoszirconium__.prototypes.technology.zirconium-processing")

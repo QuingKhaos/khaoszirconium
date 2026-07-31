@@ -23,3 +23,11 @@ khaoslib_setting:load {
   default_value = true,
   order = "a[settings]-d[early]",
 } :commit()
+
+khaoslib_setting:load {
+  type = "bool-setting",
+  name = "khaoszirconium-ammo",
+  setting_type = "startup",
+  default_value = true,
+  order = "a[settings]-e[ammo]",
+} :commit()
