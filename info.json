@@ -10,6 +10,7 @@
     "base >= 2.1.11",
 
     "khaoslib >= 2.1.0",
+    "? khaossilicon >= 0.1.0",
     "? khaostitanium >= 0.1.0"
   ],
   "package": {

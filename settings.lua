@@ -10,6 +10,14 @@ khaoslib_setting:load {
 
 khaoslib_setting:load {
   type = "bool-setting",
+  name = "khaoszirconium-more",
+  setting_type = "startup",
+  default_value = false,
+  order = "a[settings]-b[more]",
+} :commit()
+
+khaoslib_setting:load {
+  type = "bool-setting",
   name = "khaoszirconium-early",
   setting_type = "startup",
   default_value = true,
