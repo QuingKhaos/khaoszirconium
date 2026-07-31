@@ -8,7 +8,7 @@ khaoslib_item:load {
   subgroup = "raw-resource",
   order = "da[zircon]",
   stack_size = 50,
-  weight = 4.5 * kg,
+  weight = 1 * kg,
 
   inventory_move_sound = item_sounds.resource_inventory_move,
   pick_sound = item_sounds.resource_inventory_pickup,
