@@ -3,6 +3,8 @@ Version: 0.2.0
 Date: ????
   Features:
     - Add cross support for Tin Revamped.
+  Locale:
+    - Update translations from Crowdin.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 2026-08-01
