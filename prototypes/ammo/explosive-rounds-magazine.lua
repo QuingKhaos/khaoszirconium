@@ -9,9 +9,7 @@ if settings.startup["khaoszirconium-ammo"].value then
     stack_size = 200,
     magazine_size = 10,
     ammo_category = "bullet",
-
-  } :set_icons {{icon = "__khaoszirconium__/graphics/icons/explosive-rounds-magazine.png", icon_size = 64}}
-    :set_ammo_types {
+    ammo_type = {
       action = {
         type = "direct",
         action_delivery = {
@@ -54,6 +52,7 @@ if settings.startup["khaoszirconium-ammo"].value then
           },
         },
       },
-    }
+    },
+  } :set_icons {{icon = "__khaoszirconium__/graphics/icons/explosive-rounds-magazine.png", icon_size = 64}}
     :commit()
 end
