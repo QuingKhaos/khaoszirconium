@@ -4,6 +4,7 @@ Date: ????
   Compatibility:
     - Add support for Alloy Smelting.
     - Add support for Atomic Overhaul.
+    - Add support for Lex's Aircraft.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 2026-07-31

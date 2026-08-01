@@ -28,3 +28,5 @@ zirconium_lead_plate_or_iron_plate = mods["khaoslead"] and "lead-plate" or "iron
 zircaloy4_or_zirconium_plate = mods["khaostin"] and "zircaloy-4" or "zirconium-plate"
 
 require("__khaoszirconium__.prototypes.compat.base")
+
+require("__khaoszirconium__.prototypes.compat.lex-aircraft")
