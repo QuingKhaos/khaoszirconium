@@ -1,16 +1,15 @@
 {
-  "name": "khaosdev-khaoszirconium-more-all",
-  "title": "// DEV // Zirconium Revamped // More // All //",
+  "name": "khaosdev-khaoszirconium-vanilla",
+  "title": "// DEV // Zirconium Revamped // Vanilla //",
   "description": "",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
   "version": "0.0.0",
-  "factorio_version": "2.1",
+  "factorio_version": "2.0",
   "dependencies": [
     "base",
-    "elevated-rails",
-    "quality",
-    "recycler",
+    "! elevated-rails",
+    "! quality",
     "! space-age",
 
     "khaosdev",
@@ -23,14 +22,6 @@
     "khaoscircuitrygroup",
     "khaosmodulesgroup",
     "khaostransportgroup",
-    "science-tab",
-
-    "khaoslead",
-    "khaossilicon",
-    "khaostitanium",
-    "khaoszirconium",
-
-    "alloy-smelting"
-  ],
-  "expansion_required": true
+    "science-tab"
+  ]
 }

@@ -29,5 +29,11 @@ if settings.startup["khaoszirconium-more"].value then
     energy_required = recipe:count_ingredients() + 1,
   } :set_results {
     {type = "item", name = "cermet", amount = recipe:count_ingredients() + 1},
-  } :commit()
+  }
+
+  if mods["alloy-smelting"] and settings.startup["alloy-smelting-create-kilns"].value then
+    recipe:set_categories {"kiln-smelting"}
+  end
+
+  recipe:commit()
 end

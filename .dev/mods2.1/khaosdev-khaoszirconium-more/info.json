@@ -25,7 +25,9 @@
     "khaostransportgroup",
     "science-tab",
 
-    "khaoszirconium"
+    "khaoszirconium",
+
+    "alloy-smelting"
   ],
   "expansion_required": true
 }

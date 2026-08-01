@@ -16,6 +16,8 @@
     "? khaossilicon >= 0.1.0",
     "? khaostitanium >= 0.1.0",
 
+    "? alloy-smelting >= 0.7.3",
+
     "! bzlead",
     "! bzlead2",
     "! bzsilicon",
