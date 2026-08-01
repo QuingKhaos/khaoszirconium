@@ -70,3 +70,6 @@ if settings.startup["khaoszirconium-more"].value then
   khaoslib_technology:load("productivity-module-3"):add_prerequisite("cermet"):commit()
 end
 
+if mods["khaostin"] then
+  khaoslib_technology:load("advanced-material-processing-2"):add_prerequisite("zirconium-processing"):commit()
+end

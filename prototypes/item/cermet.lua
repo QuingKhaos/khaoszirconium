@@ -6,7 +6,7 @@ if settings.startup["khaoszirconium-more"].value then
     type = "item",
     name = "cermet",
     subgroup = "intermediate-product",
-    order = "ba[zirconium]-a[cermet]",
+    order = "ba[zirconium]-b[cermet]",
     stack_size = 200,
     weight = 0.5 * kg,
 

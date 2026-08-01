@@ -2,7 +2,7 @@
 
 # Zirconium Revamped
 
-Adds mineable zircon, zirconia, zirconium plates, and more to the game. Modifies several recipes to use new resources and intermediates.
+Adds mineable zircon, zirconia, zirconium plates, and more to the game. Modifies several recipes to use new resources and intermediates. If [Tin](https://mods.factorio.com/mod/khaostin) is enabled, zircaloy is also available.
 
 Zircon is available early game and mineable by hand but very little is needed early on, and there's a setting to disable the need until after logistic science. Refined products become available later. If [Titanium](https://mods.factorio.com/mod/khaostitanium) is enabled, making zirconia from zircon will also (optionally) yield titanium ore as a byproduct. There's an option to enable the cermet intermediates.
 

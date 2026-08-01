@@ -4,7 +4,7 @@
   "description": "Adds zircon, zirconia, zirconium, and more to the base game.",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "factorio_version": "2.1",
   "dependencies": [
     "base >= 2.1.11",
@@ -14,6 +14,7 @@
     "khaoslib >= 2.1.0",
     "? khaoslead >= 0.1.0",
     "? khaossilicon >= 0.1.0",
+    "? khaostin >= 0.1.0",
     "? khaostitanium >= 0.1.0",
 
     "? alloy-smelting >= 0.7.3",
@@ -24,6 +25,8 @@
     "! bzlead2",
     "! bzsilicon",
     "! bzsilicon2",
+    "! bztin",
+    "! bztin2",
     "! bztitanium",
     "! bztitanium2"
   ],

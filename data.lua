@@ -7,11 +7,13 @@ require("__khaoszirconium__.prototypes.item.zircon")
 require("__khaoszirconium__.prototypes.item.zirconia")
 require("__khaoszirconium__.prototypes.item.zirconium-sponge")
 require("__khaoszirconium__.prototypes.item.zirconium-plate")
+require("__khaoszirconium__.prototypes.item.zircaloy-4")
 require("__khaoszirconium__.prototypes.item.cermet")
 
 require("__khaoszirconium__.prototypes.recipe.zirconia")
 require("__khaoszirconium__.prototypes.recipe.zirconium-sponge")
 require("__khaoszirconium__.prototypes.recipe.zirconium-plate")
+require("__khaoszirconium__.prototypes.recipe.zircaloy-4")
 require("__khaoszirconium__.prototypes.recipe.cermet")
 require("__khaoszirconium__.prototypes.recipe.explosive-rounds-magazine")
 
