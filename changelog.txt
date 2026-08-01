@@ -3,6 +3,7 @@ Version: 0.1.1
 Date: ????
   Compatibility:
     - Add support for Alloy Smelting.
+    - Add support for Atomic Overhaul.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 2026-07-31

@@ -17,6 +17,7 @@
     "? khaostitanium >= 0.1.0",
 
     "? alloy-smelting >= 0.7.3",
+    "? Atomic_Overhaul >= 1.4.2",
 
     "! bzlead",
     "! bzlead2",

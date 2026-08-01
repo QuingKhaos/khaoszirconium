@@ -32,10 +32,12 @@ khaoslib_recipe:load("explosives")
 
 khaoslib_recipe:load("nuclear-reactor"):add_ingredient {type = "item", name = zircaloy4_or_zirconium_plate, amount = 100} :commit()
 
-khaoslib_recipe:load("uranium-fuel-cell")
-  :replace_ingredient(zirconium_lead_plate_or_iron_plate, function(ingredient) ingredient.amount = math.max(1, ingredient.amount - 5) return ingredient end)
-  :add_ingredient {type = "item", name = zircaloy4_or_zirconium_plate, amount = 5}
-  :commit()
+if not mods["Atomic_Overhaul"] then
+  khaoslib_recipe:load("uranium-fuel-cell")
+    :replace_ingredient(zirconium_lead_plate_or_iron_plate, function(ingredient) ingredient.amount = math.max(1, ingredient.amount - 5) return ingredient end)
+    :add_ingredient {type = "item", name = zircaloy4_or_zirconium_plate, amount = 5}
+    :commit()
+end
 
 khaoslib_recipe:load("low-density-structure")
   :replace_ingredient("copper-plate", function(ingredient) ingredient.amount = math.max(1, ingredient.amount - 10) return ingredient end)
