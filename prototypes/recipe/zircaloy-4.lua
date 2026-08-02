@@ -1,7 +1,7 @@
 local khaoslib_recipe = require("__khaoslib__.prototypes.recipe")
 
 if mods["khaostin"] then
-  khaoslib_recipe:load {
+  local recipe = khaoslib_recipe:load {
     type = "recipe",
     name = "zircaloy-4",
     subgroup = "intermediate-product",
@@ -22,5 +22,10 @@ if mods["khaostin"] then
       {type = "item", name = "zircaloy-4", amount = 20},
     }
     :add_unlock("advanced-material-processing-2")
-    :commit()
+
+  if mods["khaosfoundry"] then
+    recipe:set_categories {"founding"}
+  end
+
+  recipe:commit()
 end
