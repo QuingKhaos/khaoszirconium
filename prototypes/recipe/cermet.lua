@@ -25,6 +25,10 @@ if settings.startup["khaoszirconium-more"].value then
     recipe:add_ingredient {type = "item", name = "titanium-plate", amount = 1}
   end
 
+  if mods["khaosaluminium"] then
+    recipe:add_ingredient {type = "item", name = "aluminium-oxide", amount = 1}
+  end
+
   recipe:set {
     energy_required = recipe:count_ingredients() + 1,
   } :set_results {
